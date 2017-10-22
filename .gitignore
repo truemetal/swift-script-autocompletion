@@ -1,1 +1,4 @@
 .DS_Store
+
+script-edit-xcode-project/script-edit-xcode-project.xcodeproj/*
+!script-edit-xcode-project/script-edit-xcode-project.xcodeproj/project.pbxproj
