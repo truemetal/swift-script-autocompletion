@@ -6,7 +6,6 @@ Yeah, obviously you can make a command-line application in xcode but then it's n
 
 Tiny swift scripts are cool. You can `chmod +x file.swift; mv file.swift /usr/local/bin/` and then you can just run `file.swift` in terminal, you can even drop `.swift` extension and still edit the script in place if you need to tweak something.
 
-
 ### editSwiftScript.swift
 
 This (small and very hackable) script kinda allows to have best of both worlds: 
@@ -17,14 +16,18 @@ This (small and very hackable) script kinda allows to have best of both worlds:
 - after you done, you hit `enter` and script:
   - copies contents of `main.swift` to your script
   - removes folder in `/tmp`
-  
+
+### remote install
+
+`sh -c "$(curl -L https://github.com/truemetal/swift-script-autocompletion/raw/master/install-remote.sh)"`
+
+After that you can run tool from terminal just by `editSwiftScript fileName.swift`
+
 ### install.sh
   
 To use this tool on more or less permanent basis, there's `install.sh` which would: 
 - copy script (and supporting xcode project) to `/usr/local/opt`
 - add symlink to `/usr/local/bin`
-
-After that you can run tool from terminal just by `editSwiftScript fileName.swift`
 
 ### uninstall.sh
 
