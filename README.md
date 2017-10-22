@@ -4,7 +4,7 @@ Did you ever have a need to make a tiny `.swift` script to do some stuff, but st
 
 Yeah, obviously you can make a command-line application in xcode but then it's not tiny anymore. You have to keep the whole project folder, and you can't put it in `/usr/local/bin` unless you compile. 
 
-Tiny swift scripts are cool. You can just `chmod +x file.swift; mv file.swift /usr/local/bin/` and you can just run `file.swift` whenever you need, you can even drop `.swift` extension and still edit it in place if you need to tweak something.
+Tiny swift scripts are cool. You can `chmod +x file.swift; mv file.swift /usr/local/bin/` and then you can just run `file.swift` in terminal, you can even drop `.swift` extension and still edit the script in place if you need to tweak something.
 
 
 ### editSwiftScript.swift

@@ -34,8 +34,6 @@ func getTemplateProjectUrl() -> URL {
 
 // MARK: check inputs
 
-print("welcome to new version!")
-
 guard CommandLine.arguments.count == 2 else {
 	let executableName = (CommandLine.arguments.first! as NSString).lastPathComponent
 	print("❌ usage \(executableName) existingScriptName.swift")
